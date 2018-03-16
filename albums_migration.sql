@@ -10,3 +10,4 @@ create table albums (
   PRIMARY KEY (id)
 );
 
+
