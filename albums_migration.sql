@@ -1,5 +1,7 @@
 use codeup_test_db;
 
+DROP TABLE IF EXISTS  albums;
+
 create table albums (
   id int unsigned not null AUTO_INCREMENT,
   artist VARCHAR(100) NOT NULL,
