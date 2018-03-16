@@ -9,3 +9,4 @@ create table albums (
   genre char(255)not null,
   PRIMARY KEY (id)
 );
+
