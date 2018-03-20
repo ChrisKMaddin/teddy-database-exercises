@@ -1,6 +1,6 @@
 use codeup_test_db;
 
-insert into albums(artist, name, release_date, sales, genre)
+INSERT INTO albums(artist, album, release_date, genre, claimed_sales)
 VALUES ( 'Michael Jackson','Thriller',1982,'Pop, Rock, R&B',66 ),
 ( 'AC/DC','Back in Black',1980,'Hard rock',50 ),
 ( 'Pink Floyd','The Dark Side of the Moon',1973,'Progressive rock',45 ),
